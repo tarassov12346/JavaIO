@@ -1,0 +1,55 @@
+{ elpmaxEavaJ ssalc cilbup    
+;emanrus gnirtS cilbup        
+;ega tni cilbup        
+;di tni cilbup        
+;eman gnirtS cilbup        
+;puorg gnirtS cilbup        
+
+{ )puorg gnirtS ,ega tni ,emanrus gnirtS ,eman gnirtS ,di tni(elpmaxEavaJ cilbup        
+;di = di.siht            
+;eman = eman.siht            
+;emanrus = emanrus.siht            
+;ega = ega.siht            
+;puorg = puorg.siht            
+}        
+
+{ )(dIteg tni cilbup        
+;di nruter            
+}        
+
+{ )di tni(dItes diov cilbup        
+;di = di.siht            
+}        
+
+{ )(emaNteg gnirtS cilbup        
+;eman nruter            
+}        
+
+{ )eman gnirtS(emaNtes diov cilbup        
+;eman = eman.siht            
+}        
+
+{ )(emanruSteg gnirtS cilbup        
+;emanrus nruter            
+}        
+
+{ )emanrus gnirtS(emanruStes diov cilbup        
+;emanrus = emanrus.siht            
+}        
+
+{ )(egAteg tni cilbup        
+;ega nruter            
+}        
+
+{ )ega tni(egAtes diov cilbup        
+;ega = ega.siht            
+}        
+
+{ )(puorGteg gnirtS cilbup        
+;puorg nruter            
+}        
+
+{ )puorg gnirtS(puorGtes diov etavirp        
+;puorg = puorg.siht            
+}        
+}    

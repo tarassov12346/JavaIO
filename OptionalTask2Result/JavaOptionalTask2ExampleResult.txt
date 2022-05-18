@@ -1,0 +1,55 @@
+    private class JavaExample {
+        private String surname;
+        private int age;
+        private int id;
+        private String name;
+        private String group;
+
+        private JavaExample(int id, String name, String surname, int age, String group) {
+            this.id = id;
+            this.name = name;
+            this.surname = surname;
+            this.age = age;
+            this.group = group;
+        }
+
+        private int getId() {
+            return id;
+        }
+
+        private void setId(int id) {
+            this.id = id;
+        }
+
+        private String getName() {
+            return name;
+        }
+
+        private void setName(String name) {
+            this.name = name;
+        }
+
+        private String getSurname() {
+            return surname;
+        }
+
+        private void setSurname(String surname) {
+            this.surname = surname;
+        }
+
+        private int getAge() {
+            return age;
+        }
+
+        private void setAge(int age) {
+            this.age = age;
+        }
+
+        private String getGroup() {
+            return group;
+        }
+
+        private void setGroup(String group) {
+            this.group = group;
+        }
+    }

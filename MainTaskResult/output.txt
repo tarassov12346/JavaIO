@@ -1,0 +1,19 @@
+|--Bob
+   |--Anotherfolder
+      01 Anotherfile.txt
+      02 rr.docx
+      03 rrr.png
+   01 Bad.txt
+   02 Crack.txt
+   03 Fafner.txt
+   |--OneMorefolder
+   04 Shield.txt
+|--Jom
+   01 Blood.txt
+   02 First.txt
+   03 Onemorefile.txt
+   04 Wanderer.txt
+|--Norns
+   01 Dwell.txt
+   02 Fate.txt
+   03 Storm.txt

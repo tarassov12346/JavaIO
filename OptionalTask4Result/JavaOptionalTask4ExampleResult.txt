@@ -1,0 +1,55 @@
+    PUBLIC CLASS JAVAEXAMPLE {
+        PUBLIC STRING SURNAME;
+        PUBLIC INT AGE;
+        PUBLIC INT id;
+        PUBLIC STRING NAME;
+        PUBLIC STRING GROUP;
+
+        PUBLIC JAVAEXAMPLE(INT id, STRING NAME, STRING SURNAME, INT AGE, STRING GROUP) {
+            THIS.ID = id;
+            THIS.NAME = NAME;
+            THIS.SURNAME = SURNAME;
+            THIS.AGE = AGE;
+            THIS.GROUP = GROUP;
+        }
+
+        PUBLIC INT GETID() {
+            RETURN id;
+        }
+
+        PUBLIC VOID SETID(INT id) {
+            THIS.ID = id;
+        }
+
+        PUBLIC STRING GETNAME() {
+            RETURN NAME;
+        }
+
+        PUBLIC VOID SETNAME(STRING NAME) {
+            THIS.NAME = NAME;
+        }
+
+        PUBLIC STRING GETSURNAME() {
+            RETURN SURNAME;
+        }
+
+        PUBLIC VOID SETSURNAME(STRING SURNAME) {
+            THIS.SURNAME = SURNAME;
+        }
+
+        PUBLIC INT GETAGE() {
+            RETURN AGE;
+        }
+
+        PUBLIC VOID SETAGE(INT AGE) {
+            THIS.AGE = AGE;
+        }
+
+        PUBLIC STRING GETGROUP() {
+            RETURN GROUP;
+        }
+
+        PRIVATE VOID SETGROUP(STRING GROUP) {
+            THIS.GROUP = GROUP;
+        }
+    }
