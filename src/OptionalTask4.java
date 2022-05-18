@@ -7,23 +7,18 @@ public class OptionalTask4 {
 
     public static void main(String[] args) {
 
-        File file= new File("C:/data/JavaIO/Examples/JavaOptionalTask2Example.txt");
-        new File("c:/data/JavaIO/OptionalTask4Result/").mkdir();
-        File resultFile = new File("c:/data/JavaIO/OptionalTask4Result/JavaOptionalTask4ExampleResult.txt");
-        if (file.exists()) {
-            try {
-                BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
-                BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(resultFile));
+        File file= new File(args[0]);
+        new File(args[1]).mkdir();
+        File resultFile = new File(args[1]+"/JavaOptionalTask4ExampleResult.txt");
+        try(BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
+            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(resultFile))){
                 String lineOfTheProgram;
                 while ((lineOfTheProgram = bufferedReader.readLine()) != null) {
                     bufferedWriter.write(makeSomeWordsInLineToUpperCase(lineOfTheProgram));
                     bufferedWriter.newLine();
                 }
-                bufferedReader.close();
-                bufferedWriter.close();
-            }  catch (IOException e) {
-                e.printStackTrace();
-            }
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 

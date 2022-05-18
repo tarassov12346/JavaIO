@@ -1,6 +1,8 @@
 |--Bob
    |--Anotherfolder
       01 Anotherfile.txt
+      |--InnerFolder
+         01 innerFile.txt
       02 rr.docx
       03 rrr.png
    01 Bad.txt
