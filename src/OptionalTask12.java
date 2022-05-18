@@ -12,7 +12,7 @@ public class OptionalTask12 {
     public static void main(String[] args) {
 
         Scanner scanner=new Scanner(System.in);
-        System.out.println("Enter the target pattern!");
+        System.out.println("Enter the target pattern:");
         String targetPattern=scanner.nextLine();
         File file = new File("C:/data/JavaIO/Examples/JavaOptionalTask12Example.txt");
         new File("c:/data/JavaIO/OptionalTask12Result/").mkdir();
